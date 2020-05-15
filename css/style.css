@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    color: #ffffff;
+    
+
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/back.jpg);
+     background-position: center;
+}
+.container{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.dice{
+display: inline-block;
+    text-align: center
+}
+h1{
+    margin: 30px;
+    text-shadow: 5px 0 black;
+    font-size:90px;
+    color: blueviolet;
+
+}
+p{
+    font-size: 30px;
+    color: burlywood;
+}
+
+
+img{
+    width: 80%;
+
+}
+button{
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100px;
+    margin-top: 2%;
+}
+@media screen and (max-width:1000px){
+.container{
+position: relative;
+margin-top: 50%;
+}
+}
